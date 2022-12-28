@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    
+    <style>
+        /* SELETORES PERSONALIZADOS  
+           # = ID
+           . = class
+           : = pseudo-class
+           :: = pseu-element
+            > = clindren
+        
+                                         */
+           
+      body{
+        font-family: monospace;
+        font-size: 20px;
+      }
+      a{
+        color: #ff000077;
+        text-decoration: none;
+      }
+      a:hover{
+        text-decoration: underline rgba(45, 223, 59, 0.671);
+      }
+      .importante::after{
+        content: '←';
+      }
+      .importante::before{
+        content: '→';
+      }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul type="square">
+        <li><a href="https://youtube.com" target="_blank" class="importante">youtube</a></li>
+        <li><a href="https://facebook.com" target="_blank">facebook</a></li>
+        <li><a href="https://instagram.com" target="_blank">instagram</a></li>
+    </ul>
+</body>
+</html>
