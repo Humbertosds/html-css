@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* css pra tela normal */
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}

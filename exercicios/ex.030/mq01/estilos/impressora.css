@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/* tela pra impressora */
+
+menu{
+    display: none;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
