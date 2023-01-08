@@ -2,3 +2,88 @@
 
 /*versao pra todos*/
 
+/* tamanhos de telas*/ 
+
+/* Typical device Breakpoints
+   Telas pequenas: até 600px;
+   celular: de 600px a 768px;
+   tablet: de 768 a 992;
+   desktop: de 992 a 1200;
+   telas grandes: de 1200 pra cima;
+
+*/
+
+@media print {
+    /*não funciona background-image*/
+    img#print{
+        display: block;
+    }
+
+    img#cll{
+        display: none;
+    }
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main{
+        border: 1px solid black;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {/*Tela de tablet*/
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+        
+    }
+    img#tablet{
+        display: block;
+    }
+
+    img#cll{
+        display: none;
+    }
+
+    main{
+        width: 500px;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {/*Tela de desktop*/
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#pc{
+        display: block;
+    }
+
+    img#cll{
+        display: none;
+    }
+
+    main{
+        width: 700px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {/*Tela de tv ou maior*/
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    img#tv{
+        display: block;
+    }
+
+    img#cll{
+        display: none;
+    }
+
+    main{
+       width: 900px;
+    }
+
+}
