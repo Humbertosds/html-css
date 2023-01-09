@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/telapdr.css"> 
 </head>
-<body>
+<body onresize="mudouTela()">
     <header>
         <h1>Site</h1>
              <span id="burgue" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
@@ -40,6 +40,15 @@
                 itens.style.display = 'block'
             }
         }
+
+        function mudouTela() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
     </script>
     
 </body>
