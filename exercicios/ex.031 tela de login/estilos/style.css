@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'sla';
+    src: url(../fontes/Basketball.otf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body,html{
+    background-image: url(../imagens/pexels-matej-698327.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+
+#formu{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    display: block;
+    height: 400px;
+    margin: auto;
+    width: 500px;
+    
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+#log{
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: 'sla';
+    font-weight: normal;
+    color: white;
+}
+
+#coment{
+    text-align: center;
+    color: white;
+}
+
+#email{
+    font-style: italic;
+    text-indent: 10px;
+    padding: 1px;
+}
+
+#iemail{
+    width: 99%;
+    height: 40px;
+    font-style: italic;
+    font-weight: bold;
+    text-indent: 10px;
+    border-radius: 5px;
+    
+    border: 1px solid rgb(1, 0, 5);
+}
+
+#isenha{
+    width: 99%;
+    height: 40px;
+    text-indent: 10px; 
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 5px;
+
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#botao{
+    width: 99%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-size: medium;  
+}
+
+#cadastro{
+    padding-top: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    
+    color: white;
+}
+
+
+
