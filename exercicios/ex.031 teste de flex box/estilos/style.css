@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.container {
+    background-color: rgb(28, 28, 58);
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+
+.item1 {
+    
+    background-color: rgb(102, 0, 0);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.item2 {
+    background-color: rgb(102, 0, 0);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+}
+
+.item3 {
+    background-color: rgb(102, 0, 0);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+
+
+
+
