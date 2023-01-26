@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+body,html {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C8E8E0;
+}
+
+header {
+    text-align: center;
+    color: #2E937A;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+h3.fea {
+    font-family: sans-serif;
+    font-weight: normal;
+    letter-spacing: 3px;
+    font-size: 1.3em;
+}
+
+h1.our {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h3 {
+    color: #2E937A;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 130px;
+    border-radius: 30px;
+    border: 0px;
+    background-color: #2E937A;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+
+
+.bloco1 {
+    padding: 10px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: #376358;
+    max-width: 300px;
+}
+
+#img1 {
+    width: 230px;
+}
+
+.bloco2 {
+    padding: 10px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: #376358;
+    max-width: 300px;
+}
+
+#img2 {
+    width: 230px;
+}
+
+.bloco3 {
+    padding: 10px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: #376358;
+    max-width: 300px;
+}
+
+#img3 {
+    width: 230px;
+}
+
+p#fim {
+    text-align: center;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+a {
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    border: none;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    margin-top: 200px;
+    height: 200px;
+    text-align: center;
+    letter-spacing: .5px;
+}
+
+p#foot {
+    width: 400px;
+    margin: auto;
+    padding-top: 90px;
+}
+
+
+
+
+
+
+
+
+
+
