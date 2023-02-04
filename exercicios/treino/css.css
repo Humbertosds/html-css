@@ -57,6 +57,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #38b193;
+}
+
 
 
 .bloco1 {
