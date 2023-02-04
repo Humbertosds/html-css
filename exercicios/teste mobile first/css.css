@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background: url(imagens/pexels-cottonbro-studio-6857199.jpg) center no-repeat;
+        background-size: cover;
+        height: 100vh;
+        
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    body {
+        background: url(imagens/pexels-noah-erickson-404280.jpg) center no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background: url(imagens/pexels-josh-sorenson-1334597.jpg) center no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background: url(imagens/pexels-designecologist-1779487.jpg) center no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background: url(imagens/pexels-jean-van-der-meulen-1457842.jpg) center no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }    
+}
