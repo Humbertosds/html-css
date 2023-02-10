@@ -1,8 +1,30 @@
 @charset "UTF-8";
 
-*{
-    padding: 0px;
-    margin: 0px;
+body,html {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+.container {
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    width: 90vw;
+    height: 700px;
+}
+
+.item1 {
+    border: 1px solid black;
+}
+
+.item2 {
+    border: 1px solid black;
+}
+
+.item3 {
+    border: 1px solid black;
+}
