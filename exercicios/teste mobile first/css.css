@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1500px) {
     body {
         background: url(imagens/pexels-designecologist-1779487.jpg) center no-repeat;
         background-size: cover;
@@ -38,7 +38,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1500px) {
     body {
         background: url(imagens/pexels-jean-van-der-meulen-1457842.jpg) center no-repeat;
         background-size: cover;
