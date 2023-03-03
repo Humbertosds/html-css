@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+button:hover {
+    transform: translateY(-10px);
+}
