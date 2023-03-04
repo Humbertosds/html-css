@@ -6,25 +6,29 @@ body,html {
     box-sizing: border-box;
 }
 
-.container {
-    display: grid;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    border: 1px solid black;
-    width: 90vw;
-    height: 700px;
+hr {
+    width: 500px;
+    margin-top: 50%;
 }
 
-.item1 {
-    border: 1px solid black;
+@keyframes linha {
+    from {
+        transform: translateY(200px);
+    }
+
+    to {
+        transform: translateY(-200px);
+    }
 }
 
-.item2 {
-    border: 1px solid black;
-}
+.movi {
+    /*animation-name: linha;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;*/
 
-.item3 {
-    border: 1px solid black;
+    animation: linha 2s ease-in-out 0s both infinite alternate;
 }
