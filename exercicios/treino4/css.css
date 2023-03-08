@@ -22,8 +22,8 @@
 }
 
 #btn button:hover {
-        background-color: #ffffffab;
-        transition: all .2s ease 0s;
-        color: black;
+        background-color: #ff0000ab;
+        transition: all 10s ease 0s;
+        color: rgb(0, 0, 0);
         border: 1px solid black;
 }
