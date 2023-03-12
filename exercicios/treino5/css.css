@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    background-image: linear-gradient(45deg, rgba(255, 0, 0, 0.87), rgba(0, 211, 0, 0.849));
+    height: 100vh;
+    font-family: 'Tilt Warp', cursive;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.itens {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.199);
+    color: rgb(224, 224, 224);
+    border: 0;
+    border-radius: 10px;
+}
+
+h1 {
+    padding: 20px;
+    font-size: 38px;
+}
+
+p {
+    padding-bottom: 40px;
+    font-size: 17px;
+}
+
+#email {
+    width: 80%;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 0;
+}
+
+#senha {
+    width: 80%;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 50px;
+}
+
+.btn {
+    padding: 20px;
+    margin: 70px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: white; 
+}
+
+.btn:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#criarconta {
+    text-align: start;
+    margin-left: 25px;
+}
+
+#criarconta a  {
+    text-decoration: none;
+}
+
+#criarconta a:hover {
+    text-decoration: underline;
+}
