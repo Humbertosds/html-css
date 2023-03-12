@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body onresize="mudoutela()">
+    <header>
+        <h1>LOGO</h1>
+        <i id="burgue" class="material-icons" onclick="burgue()">menu</i>
+        <nav>
+            <ul id="nav">
+                <li>Início</li>
+                <li>Informações</li>
+                <li>Curiosidades</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+
+        function mudoutela() {
+            if(window.innerWidth >= 600) {
+                nav.style.display = 'block'
+            }else {
+                nav.style.display = 'none'
+            }
+        }
+
+        function burgue() {
+            if (nav.style.display == 'block') {
+                nav.style.display = 'none'
+            }else {
+                nav.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
