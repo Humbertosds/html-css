@@ -4,29 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title></title>
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
-    <div class="container">
-    <form method="post">
-    <div class="itens">
-        <h1>Login</h1>
-        <p>Faça o login para ter acesso a todo o conteúdo</p>
-        <label for="email">Email:</label>
-        <input type="email" name="senha" id="email" required><br>
-        <label for="senha">Senha:</label>
-        <input type="password" name="senha" id="senha" required minlength="8">
-        <input type="submit" value="Entrar" class="btn">
-
-        <p id="criarconta">Não tenho uma conta: <a href="#">Criar</a></p>
-    </div>
-    
-    
-    </form>
+    <p><label for="iano">Que ano voçê nasceu?</label>
+    <input type="number" name="ano" id="iano" required min="1900" max="2023" oninput="calcIdade()">
+    </p>
 
     
+        <p>
+            <label for="iidade">Voçê tem (ou irá fazer):</label>
+            <output id="iidade">0</output>
+        </p>
 
-    </div>
+    <script>
+        function calcIdade() {
+            atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
 </body>
 </html>
